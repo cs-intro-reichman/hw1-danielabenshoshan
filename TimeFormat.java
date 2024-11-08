@@ -22,15 +22,15 @@ public class TimeFormat {
 			if (fixHour==0) { //case of 12 PM 
 				fixHour = hours;
 			}if (flag) {
-				System.out.println(fixHour+" : 0"+minutes+" PM");
+				System.out.println(fixHour+":0"+minutes+" PM");
 			} else
-				System.out.println(fixHour+" : "+minutes+" PM");
+				System.out.println(fixHour+":"+minutes+" PM");
 		}else{ // case for AM
 			fixHour = hours;
 			if (flag) {
-				System.out.println(fixHour+" : 0"+minutes+" AM");
+				System.out.println(fixHour+":0"+minutes+" AM");
 			} else
-				System.out.println(fixHour+" : "+minutes+" AM");
+				System.out.println(fixHour+":"+minutes+" AM");
 		}
 	}
 }
